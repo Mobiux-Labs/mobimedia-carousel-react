@@ -1,22 +1,19 @@
-# Dietpixels Carousel (formerly MobiMedia)
+# Dietpixels Carousel for React (formerly MobiMedia)
 
-# @mobimedia/carousel
+# @mobimedia/carousel-react
 
-A carousel component for displaying Dietpixels playlist in reels view.
+A carousel React component for displaying Dietpixels playlist in reels view.
 
 ## Installation
 
 ```bash
-npm install @mobimedia/carousel
+npm install @mobimedia/carousel-react
 ```
 
 ## Usage
 
-```html
-<body>
-  <mobi-carousel></mobi-carousel>
-  <script type="module" src="./node_modules/@mobimedia/carousel/index.js"></script>
-</body>
+```jsx
+return <Carousel playlistId="<your-public-playlist-id>" />
 ```
 
 #WIP
