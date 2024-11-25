@@ -13,6 +13,8 @@ npm install @mobimedia/carousel-react
 ## Usage
 
 ```jsx
+import Carousel from '@mobimedia/carousel-react';
+
 return <Carousel playlistId="<your-public-playlist-id>" />
 ```
 
