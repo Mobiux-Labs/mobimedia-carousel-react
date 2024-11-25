@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.1.1 (2024-11-25)
+
+
+### Features
+
+* carousel component for React ([028bcaf](https://github.com/Mobiux-Labs/mobimedia-carousel-react/commit/028bcafbe2229020a284be554deddc2c28fcc390))
+
 ### 0.0.6 (2024-11-25)
 
 
