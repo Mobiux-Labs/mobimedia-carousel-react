@@ -1,17 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Carousel from './Carousel';
 // import Carousel from '@mobimedia/carousel-react';
-
-import React from 'react';
-import {createComponent} from '@lit/react';
-import MobiCarousel from '@mobimedia/carousel';
-
-export const Carousel = createComponent({
-  tagName: 'mobi-carousel',
-  elementClass: MobiCarousel,
-  react: React,
-  events: {},
-});
 
 function App() {
   return (
