@@ -19,10 +19,9 @@ return <Carousel playlistId="<your-public-playlist-id>" />
 ```
 
 ## Next.js
-
 ```js
+// MobiCarousel.jsx
 "use client";
-
 import Carousel from "@mobimedia/carousel-react";
 
 const MobiCarousel = ({id}) => {
@@ -31,8 +30,8 @@ const MobiCarousel = ({id}) => {
 
 export default MobiCarousel;
 
+// index.jsx
 // Dynamically Import the Component
-
 const MobiCarousel = dynamic(() => import("./MobiCarousel"), {
   ssr: false,
 });
