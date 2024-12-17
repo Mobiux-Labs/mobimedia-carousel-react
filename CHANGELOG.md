@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/Mobiux-Labs/mobimedia-carousel-react/compare/v0.1.6...v0.1.7) (2024-12-17)
+
+
+### Bug Fixes
+
+* carousel mute and styling ([6c0e7ed](https://github.com/Mobiux-Labs/mobimedia-carousel-react/commit/6c0e7edba8de364e6ca909d837057c071854f012))
+
 ### [0.1.6](https://github.com/Mobiux-Labs/mobimedia-carousel-react/compare/v0.1.5...v0.1.6) (2024-12-03)
 
 
