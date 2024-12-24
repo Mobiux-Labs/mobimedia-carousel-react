@@ -28,7 +28,20 @@ export default [
       babel({
         babelHelpers: 'runtime',
         exclude: 'node_modules/**',
-        presets: ['@babel/preset-env', '@babel/preset-react'],
+        presets: [
+          [
+            '@babel/preset-env',
+            {
+              targets: '> 0.25%, not dead', // Adjust target environments
+              useBuiltIns: 'entry', // Polyfill as needed
+              corejs: 3, // Specify core-js version
+            },
+          ],
+          '@babel/preset-react',
+        ],
+        plugins: [
+          '@babel/plugin-transform-runtime', // Enable runtime helpers
+        ],
       }),
     ],
   },
